@@ -72,7 +72,7 @@
           <div class="card">
             <div class="card-descricao">
                 <div class="descricao">
-                    <h3 class="descricao-titulo">Talvez você se interesse por...</h3>
+                    <h3 class="descricao-titulo">Talvez você também se interesse por...</h3>
                     <h2 class="descricao-titulo-livro">Angular 11 e Firebase</h2>
                     <p class="descricao-texto">Construindo uma aplicação com a plataforma do Google.</p>
                 </div>
@@ -87,8 +87,30 @@
                 </ul>
                 <a href="#" class="botoes-ancora">Saiba Mais</a>
             </div>
-          </div>
+        </div>
     </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel-titulo">Mais Vendidos</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./img/Javascript.svg" alt="Livro sobre javaScript"></div>
+              <div class="swiper-slide"><img src="./img/Gestão2.svg" alt="Livro sobre gestao estratégica"></div>
+              <div class="swiper-slide"><img src="./img/Gestão.svg" alt="Livro sobre gestão alurabooks"></div>
+              <div class="swiper-slide"><img src="./img/MEAN.svg" alt="Livro sobre Mean angular e Node.js"></div>
+            </div>
+           
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
@@ -100,7 +122,9 @@
                 type: 'bullets',
             },
         });
-    </script>
+    </script>   
+
+    
 </body>
 
 </html>
