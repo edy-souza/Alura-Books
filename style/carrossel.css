@@ -27,6 +27,10 @@
     margin-bottom: 0.5em;
 }
 
+.card-descricao img {
+    margin: 0.5em 0;
+}
+
 .card-botoes {
     display: flex;
     justify-content: space-between;
